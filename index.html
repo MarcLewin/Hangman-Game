@@ -2,48 +2,56 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Hangman-Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <script src=C:\Users\marcl\Desktop\Hangman-Game\assets\Javascript\game.js></script>
+
+	<title>
+		Hangman
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-md-12">Marc's Literary Heroes</div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-12">Press any Key to Start</div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">Wins:</div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">Current Word:</div>
-    </div>
-    <div class="row">
-        <div class="col-md-12"><!--Current word will go here--></div> 
-    </div>
-    <div class="row">
-        <div class="col-md-12">Number of guesses remaining</div>
-    </div>
-    <div class="row">
-        <div class="col-md-12"><!--display number of guesses user has left--></div> 
-    </div>
-    <div class="row">
-        <div class="col-md-12">Letters already guessed</div> 
-    </div>
-    <div class="row">
-        <div class="col-md-12"><!--display letters already guessed by user--></div> 
-    </div>
+	<header class="container">
 
-        <div class="row">
-            <div class="col-md-6">.col-md-6</div>
-            <div class="col-md-6">.col-md-6</div>
-        </div>
+		<p id="header" class="text-center"> HANGMAN </p>
+
+		<p id="status">
+		</p>
+
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Press any letter to play</p>
+				<p> Literary Heroes
+				</p>
+				<p id="word">
+				</p>
+				<p> Guessed Letters
+				</p>
+				<p id="guessedLetters">
+				</p>
+				<p id="wins">
+				</p>
+				<p id="losses">
+				</p>
+            </div>
+            
+            <div id="pic" class="col-md-6">
+				
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="C:\Users\marcl\Desktop\Hangman-Game\assets\Javascript\game.js"></script>
 
 </body>
 
