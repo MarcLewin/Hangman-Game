@@ -1,0 +1,99 @@
+#index-pic{
+    width: 100%;
+    float:left;
+    z-index: 0;
+}
+header{
+    color: black;
+    font-size: 40px;
+    position: relative;
+    top:0px;
+    left:-250px;
+}
+
+#press{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:140px;
+    Left:250px;
+    color: rgb(243, 237, 237);
+}
+
+#status{
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    top:140px;
+    left:280px;
+    margin-top: 25px;
+    color: rgb(243, 237, 237);
+    font-size: 18px;
+
+}
+
+.text{
+    color: rgb(243, 237, 237);
+    z-index: 1;
+text-align: center;
+position: absolute;
+top:100px;
+left: 110px;
+margin-top: 25px;
+font-size: 20px;
+
+}
+
+#lit{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:180px;
+    Left:260px;
+    color: rgb(243, 237, 237);
+}
+
+#word{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:220px;
+    Left:250px;
+    color: rgb(243, 237, 237);
+}
+#guess{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:260px;
+    Left:250px;
+    color: rgb(243, 237, 237);
+}
+
+#guessedLetters{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:300px;
+    Left:250px;
+    color: rgb(243, 237, 237);
+}
+
+#wins{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:340px;
+    Left:250px;
+    color: rgb(243, 237, 237);
+}			
+#losses{
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:380px;
+    Left:250px;
+    color: rgb(243, 237, 237);
+}				
+				
+			

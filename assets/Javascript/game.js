@@ -73,7 +73,7 @@ function include(arr, obj) {
 
 		if (guessedLetters.indexOf(obj) > -1 && numGuessRm >= 1) {
 			wrongGuess--;
-			document.getElementById('status').innerHTML = 'You Guessed That Letter Already, you have ' + wrongGuess + ' wrong guess\' remaining';
+			document.getElementById('status').innerHTML = 'That Letter was guessed, you have ' + wrongGuess + ' wrong guess\' remaining';
 		} 
 		else if (arr.indexOf(obj) === -1 && guessedLetters.indexOf(obj) === -1 && numGuessRm >= 1 && arr.split(" ").toString() != empty.join()) {
 			wrongGuess--;
