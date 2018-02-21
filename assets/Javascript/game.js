@@ -4,7 +4,7 @@
 
 var guessedLetters = [];
 
-var heroes = ["ayn rand", "steven pressfield", "yuval noah harari", "oscar wilde", "marcel proust", 
+var heroes = ["ayn rand", "steven pressfield", "yuval harari", "oscar wilde", "marcel proust", 
 "james joyce", "ernest hemingway", "anne rice", "peter thiel"];
 
 var arr = heroes[Math.floor(Math.random() * heroes.length)];
@@ -73,12 +73,12 @@ function include(arr, obj) {
 
 		if (guessedLetters.indexOf(obj) > -1 && numGuessRm >= 1) {
 			wrongGuess--;
-			document.getElementById('status').innerHTML = 'That Letter was guessed, you have ' + wrongGuess + ' wrong guess\' remaining';
+			document.getElementById('status').innerHTML = 'You guessed that letter, you have ' + wrongGuess + ' wrong guesses remaining';
 		} 
 		else if (arr.indexOf(obj) === -1 && guessedLetters.indexOf(obj) === -1 && numGuessRm >= 1 && arr.split(" ").toString() != empty.join()) {
 			wrongGuess--;
-			document.getElementById('status').innerHTML = 'Try Again, you have ' + wrongGuess + ' wrong guess\' remaining';
-		} 
+			document.getElementById('status').innerHTML = 'Try Again, you have ' + wrongGuess + ' wrong guesses remaining';
+		}
 		else {
 			document.getElementById('status').innerHTML = 'Good Guess';
 		}
