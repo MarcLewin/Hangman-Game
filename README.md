@@ -1,30 +1,19 @@
 # Hangman-Game
 
-Watch the demo. http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository-FSF/raw/master/01-Class-Content/03-javascript/02-Homework/Instructions/hangman-game-demo.mov
-<br>
+This is a HangMan game
 
-Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any subject for your theme, though, so be creative!
+The theme of the game is Marc's literary heroes!
 
+Press any key to start playing.
 
+The game will track your wins, losses, letters guessed, number of guesses remaining (start with 6) and current word.
 
-Use key events to listen for the letters that your players will type.
-
-
-Display the following on the page:
-
-Press any key to get started!
-
-Wins: (# of times user guessed the word correctly).
+Ex:
+If the word is madonna, the word will be displayed like this when the game starts: _ _ _ _ _ _ _.
+As the user guesses the correct letters, the word will be revealed: m a d o _  _ a.
 
 
 
-If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _.
-As the user guesses the correct letters, reveal them: m a d o _  _ a.
+After the user wins/loses the game will automatically choose another word and make you play the game again. 
 
-
-
-Number of Guesses Remaining: (# of guesses remaining for the user).
-
-Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H).
-
-After the user wins/loses the game should automatically choose another word and make the user play it.
+Have fun!
