@@ -1,10 +1,21 @@
 # Hangman-Game
 
 Watch the demo. http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository-FSF/raw/master/01-Class-Content/03-javascript/02-Homework/Instructions/hangman-game-demo.mov
-Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any subject for your theme, though, so be creative!
+<br>
+
+Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any 
+<br>
+subject for your theme, though, so be creative!
+
+
+<br>
 Use key events to listen for the letters that your players will type.
+
+<br>
 Display the following on the page:
+<br>
 Press any key to get started!
+<br>
 Wins: (# of times user guessed the word correctly).
 
 
