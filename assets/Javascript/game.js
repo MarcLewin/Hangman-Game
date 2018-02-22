@@ -96,12 +96,14 @@ function arraysEqual(arr1, arr2) {
 
 	if (arr1.replace(" ", "") == arr2.join("").replace("\u00A0", "")) {
 		winCounter();
+		alert("You won");
 		location.reload();
 		return continueGame = true;
 		
 	} 
 	else if (wrongGuess === 0) {
 		lossCounter();
+		alert("You Lost");
 		location.reload();
 		return continueGame = true;
 		
